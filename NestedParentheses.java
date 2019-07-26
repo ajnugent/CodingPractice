@@ -30,7 +30,13 @@ public class NestedParentheses {
 
         String s = in.nextLine();
 
-        checkNesting(s);
+        Boolean check = checkNesting(s);
+
+        if (check==true){
+            System.out.println("Correctly Nested");
+        }else{
+            System.out.println("Not correctly Nested");
+        }
     }
 
 }
