@@ -1,3 +1,9 @@
+/*Create a method where if a dog is barking (Boolean) and the hour is earlier than hour 7
+  or later than hour 20, then return statements telling whether you are in trouble or not
+  due to your barking dog.
+ */
+
+
 public class DarkBarkingLogic {
 
     public static void dogTrouble (Boolean barking, int hour){
