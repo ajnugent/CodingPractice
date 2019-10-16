@@ -4,7 +4,7 @@ public class PrintCategories {
 
         String str = "We have a large inventory in our warehouse falling in"
                     + "the category:apparel and the slightly more in demand"
-                    + "category:makeup along with category:furniture ...";
+                    + "category:makeup along with category:furniture. Time to move it";
         printCategories(str);
     }
     /*
